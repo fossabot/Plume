@@ -2,12 +2,12 @@
 # It is not intended for manual editing.
 [[package]]
 name = "activitypub"
-version = "0.1.4"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "activitystreams-derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "activitystreams-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "activitystreams-traits 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "activitystreams-types 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "activitystreams-types 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.91 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.91 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.39 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -15,7 +15,7 @@ dependencies = [
 
 [[package]]
 name = "activitystreams-derive"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "proc-macro2 0.3.8 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -35,10 +35,10 @@ dependencies = [
 
 [[package]]
 name = "activitystreams-types"
-version = "0.2.2"
+version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "activitystreams-derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "activitystreams-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "activitystreams-traits 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "chrono 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "mime 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1875,7 +1875,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "plume"
 version = "0.3.0"
 dependencies = [
- "activitypub 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "activitypub 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "askama_escape 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "atom_syndication 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "chrono 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1937,8 +1937,8 @@ dependencies = [
 name = "plume-common"
 version = "0.3.0"
 dependencies = [
- "activitypub 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "activitystreams-derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "activitypub 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "activitystreams-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "activitystreams-traits 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "array_tool 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "base64 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1982,7 +1982,7 @@ dependencies = [
 name = "plume-models"
 version = "0.3.0"
 dependencies = [
- "activitypub 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "activitypub 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "ammonia 2.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "askama_escape 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "bcrypt 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -3506,10 +3506,10 @@ version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
-"checksum activitypub 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)" = "08018b04725f5107d4a64e850f8a44a1f8a7e72abf0ca09125e3054921d26fd9"
-"checksum activitystreams-derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "48db826c588a009960d74530e7c215e21fae130f585362504dc6b6357e5ce86b"
+"checksum activitypub 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "dbb11d9099278667d3723c6491f25ea34dcae3eb54d73070e665d312c4455b25"
+"checksum activitystreams-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "176bdecfca82b1980e4769e3d54b6a392284b724083e0bff68272e290f17458f"
 "checksum activitystreams-traits 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "670ef03168e704b0cae242e7a5d8b40506772b339687e01a3496fc4afe2e8542"
-"checksum activitystreams-types 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "224d1e28d043f4275139445475da8866f0a430ecfc9047c9a15fbe3c70c22b04"
+"checksum activitystreams-types 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "ff74c5765278614a009f97b9ec12f9a7c732bbcc5e0337fcfcab619b784860ec"
 "checksum adler32 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)" = "7e522997b529f05601e05166c07ed17789691f562762c7f3b987263d2dedee5c"
 "checksum aho-corasick 0.7.3 (registry+https://github.com/rust-lang/crates.io-index)" = "e6f484ae0c99fec2e858eb6134949117399f222608d84cadb3f58c1f97c2364c"
 "checksum ammonia 2.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c799ecf1ad77acb48b643e2f45b12d60ee41576287fc575031aa020de88b8f45"

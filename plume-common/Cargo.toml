@@ -4,7 +4,7 @@ version = "0.3.0"
 authors = ["Plume contributors"]
 
 [dependencies]
-activitypub = "0.1.1"
+activitypub = "0.1.5"
 activitystreams-derive = "0.1.0"
 activitystreams-traits = "0.1.0"
 array_tool = "1.0"
