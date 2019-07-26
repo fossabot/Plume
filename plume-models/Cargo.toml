@@ -5,7 +5,7 @@ authors = ["Plume contributors"]
 
 [dependencies]
 activitypub = "0.1.1"
-ammonia = "2.1.1"
+ammonia = "3.0.0"
 askama_escape = "0.1"
 bcrypt = "0.4"
 guid-create = "0.1"
