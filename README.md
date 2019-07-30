@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://github.com/Plume-org/Plume/"><img alt="CircleCI" src="https://img.shields.io/circleci/build/gh/Plume-org/Plume.svg"></a>
   <a href="https://codecov.io/gh/Plume-org/Plume"><img src="https://codecov.io/gh/Plume-org/Plume/branch/master/graph/badge.svg" alt="Code coverage"></a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Ffdb-hiroshima%2FPlume?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffdb-hiroshima%2FPlume.svg?type=shield"/></a>
   <a title="Crowdin" target="_blank" href="https://crowdin.com/project/plume"><img src="https://d322cqt584bo4o.cloudfront.net/plume/localized.svg"></a>
   <a href="https://hub.docker.com/r/plumeorg/plume"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/plumeorg/plume.svg"></a>
   <a href="https://liberapay.com/Plume"><img alt="Liberapay patrons" src="https://img.shields.io/liberapay/patrons/Plume.svg"></a>
@@ -53,3 +54,7 @@ As we want the various spaces related to the project (GitHub, Matrix, Loomio, et
 
 We provide various way to install Plume: from source, with pre-built binaries, with Docker or with YunoHost.
 For detailed explanations, please refer to [the documentation](https://docs.joinplu.me/installation/).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffdb-hiroshima%2FPlume.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffdb-hiroshima%2FPlume?ref=badge_large)
